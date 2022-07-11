@@ -1,0 +1,26 @@
+.lead{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    background: cornsilk;
+    font-size: 300%;
+}
+
+.lead2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.btn-primary.agr{
+    padding:10px;
+    background:#502121;
+    color:white;
+    font:bold 10px/10px verdana;
+    width:150px;
+    text-align:center;
+}
+
+.container{
+    display: inline;
+    width: 100%;
+}
