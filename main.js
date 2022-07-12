@@ -15,9 +15,9 @@ function capturar() {
     agregar();
 }
 
-let baseDatos = [];
+let lista = [];
 function agregar() {
-    baseDatos.push(nuevoProducto);
+    lista.push(nuevoProducto);
     document.getElementById("tabla").innerHTML += '<tbody><td td>'+nuevoProducto.nombre+'</td><td>'+nuevoProducto.precio+'</td></tbody>';
 };
 
