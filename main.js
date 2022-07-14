@@ -14,7 +14,7 @@ function capturar() {
     agregar();
     this.calcular_total();
 }
-let suma = 0;
+
 let lista = [];
 function agregar() {
     lista.push(nuevoProducto);
