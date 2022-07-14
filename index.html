@@ -17,14 +17,14 @@
         <h1 class="lead">Ingrese productos</h1>
         <p class="lead2">Detalle el producto y precios a ingresar.</p>
         <div class="col">
-            <input id="nombre" type="text" class="form-control" placeholder="Ingrese producto">
+            <input id="nombre" type="text" class="form-control" placeholder="Ingrese producto" required>
         </div>
         <div class="col">
-            <input id="precio" type="number" class="form-control" placeholder="Ingrese precio">
+            <input id="precio" type="number" class="form-control" placeholder="Ingrese precio" required>
         </div>
         <button id="boton" type="button" onclick="capturar();" class="btn btn-primary agr">Agregar</button>
     </div>
-
+        <p class="total1">Total: <b id="suma" ></b></p>
     <div class="container">
         <table id= "tabla" class="table table-dark table-striped">
             <thead>

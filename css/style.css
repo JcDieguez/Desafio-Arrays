@@ -24,3 +24,18 @@
     display: inline;
     width: 100%;
 }
+
+.total1{
+    text-align: center;
+    font-size: 120%;
+    margin-top: 1%;
+    background-color: #502121;
+    color: antiquewhite;
+    display: block;
+    
+}
+
+.table-striped-2{
+    background-color: #502121;
+    color: antiquewhite;
+}
