@@ -13,12 +13,31 @@
 
 .btn-primary.agr{
     padding:10px;
-    background:#502121;
+    background:#0c863f;
     color:white;
     font:bold 10px/10px verdana;
     width:150px;
     text-align:center;
 }
+
+.btn-primary.modificar{
+    padding:10px;
+    background:#0ecf08;
+    color:white;
+    font:bold 10px/10px verdana;
+    width:150px;
+    text-align:center;
+}
+
+.btn-primary.list{
+    padding:10px;
+    background:#800f0f;
+    color:white;
+    font:bold 10px/10px verdana;
+    width:150px;
+    text-align:center;
+}
+
 
 .container{
     display: inline;
